@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Users.master.cs" Inherits="TripViewer.Users" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TripBuzz</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="js-image-slider.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+         .social-icons ul li 
+  {
+      float: left;
+      margin-right: 15px;
+       display:inline-block;
+       list-style-type:none;
+      
+      }
+      
+  .social-icons img
+  {
+      display:inline-block;
+    list-style-type:none;
+  }
+    </style>
+    <script src="js-image-slider.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Satisfy|Fjalla+One|Open+Sans:400,600,700' rel='stylesheet' type='text/css'/>
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <form id="form1" runat="server">
+    <div>
+         <div id="wrapper">
+	<div id="page" class="container">
+		<div id="content"> 
+    <div id="box1" class="post">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+    </div>
+     
+			<div id="footer">
+				<p>Copyright (c) 2014 tripbuzz.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>. Photos by <a href="http://google.com/images">Google</a>.</p>
+			</div>
+		</div>
+        		<div id="sidebar">
+			<div id="logo">
+				<h1><a href="#">TripBuzz</a></h1>
+			</div>
+			<div id="menu" class="box">
+				<ul>
+					<li><a href="Mapui.aspx" accesskey="1" title="">Create Map</a></li>
+					<li><a href="viewmaps.aspx"" accesskey="2" title="">Routes Shop</a></li>
+					<li><a href="logout.aspx" accesskey="3" title="">Logout</a></li>
+					</ul>
+                <div class="social-icons">
+                    <ul>
+            
+                                    <li class="social_icon"><a href="http://twitter.com/home?status=Reading%20-%20http://www.scribblemaps.com/maps/view/"
+                            title="Twitter" target="_blank">
+                            <img src="images/twitter.png" alt="twitter" border="0"  /></a></li>
+                        <li class="social_icon"><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.scribblemaps.com/maps/view/"
+                            title="Facebook" target="_blank">
+                            <img src="images/facebook.png" alt="facebook" border="0" /></a></li>
+                        <li class="social_icon"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=CONTENT-URL&amp;title=CONTENT-TITLE&amp;summary=DEATILS-OPTIONAL&amp;source=scribblemaps.com"
+                            title="LinkedIn" target="_blank">
+                            <img src="images/linkedin.png" alt="linkedin" border="0" /></a></li>
+                        
+                    </ul>
+                
+		</div>
+			</div>
+            
+         
+	</div>
+	<div class="clearfix">&nbsp;</div>
+</div>     
+    </div>
+    </form>
+
+</body>
+</html>

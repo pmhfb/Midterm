@@ -1,0 +1,5 @@
+c:\users\poojitha\documents\visual studio 2012\Projects\TripViewer\TripViewer\bin\TripViewer.dll
+c:\users\poojitha\documents\visual studio 2012\Projects\TripViewer\TripViewer\bin\TripViewer.pdb
+c:\users\poojitha\documents\visual studio 2012\Projects\TripViewer\TripViewer\obj\Debug\TripViewer.csprojResolveAssemblyReference.cache
+c:\users\poojitha\documents\visual studio 2012\Projects\TripViewer\TripViewer\obj\Debug\TripViewer.dll
+c:\users\poojitha\documents\visual studio 2012\Projects\TripViewer\TripViewer\obj\Debug\TripViewer.pdb
